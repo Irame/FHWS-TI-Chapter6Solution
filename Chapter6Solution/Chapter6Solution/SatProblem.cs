@@ -91,11 +91,13 @@ namespace Chapter6Solution
 
     public class Variable
     {
+        public int Index { get; }
         public string Name { get; }
 
-        public Variable(string name)
+        public Variable(int index, string name = null)
         {
-            Name = name;
+            Index = index;
+            Name = name ?? $"x{index}";
         }
 
         public override string ToString()

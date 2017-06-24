@@ -7,8 +7,10 @@ using Microsoft.SolverFoundation.Services;
 
 namespace Chapter6Solution
 {
-    class AlgorithmB : IWellAnalyzed
+    public class AlgorithmB : IWellAnalyzed
     {
+        public IReadOnlyDictionary<Variable, double> Probailities => _probailities;
+
         private Random _rand = new Random();
         private SatProblem _problem;
         private Dictionary<Variable, double> _probailities;

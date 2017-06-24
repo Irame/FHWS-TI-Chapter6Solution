@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Chapter6Solution
 {
-    class CnfFileParser
+    public class CnfFileParser
     {
         public static SatProblem Parse(string filePath)
         {
@@ -30,7 +30,7 @@ namespace Chapter6Solution
                             variables = new Variable[variableCount];
                             for (int i = 0; i < variableCount; i++)
                             {
-                                variables[i] = new Variable($"x{i}");
+                                variables[i] = new Variable(i);
                             }
                         }
                     }

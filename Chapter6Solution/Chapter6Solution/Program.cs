@@ -11,9 +11,9 @@ namespace Chapter6Solution
     {
         static void Main(string[] args)
         {
-            Variable x1 = new Variable("x1");
-            Variable x2 = new Variable("x2");
-            Variable x3 = new Variable("x3");
+            Variable x1 = new Variable(1);
+            Variable x2 = new Variable(2);
+            Variable x3 = new Variable(3);
 
 
             SatProblem parsedProblem = CnfFileParser.Parse(args[0]);
