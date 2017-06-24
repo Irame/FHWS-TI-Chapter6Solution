@@ -51,6 +51,13 @@ namespace Chapter6Solution
             int satisfiedClausesDrandA = ArgorithmDrand.GenerateAssignment(problem, algoA, out VariableAssignment assignmentDrandA);
             Console.WriteLine($"Erfüllte Klauseln: {satisfiedClausesDrandA}");
 
+
+            Console.WriteLine();
+            Console.WriteLine("Algorithmus DRAND_B:");
+            int satisfiedClausesDrandB = ArgorithmDrand.GenerateAssignment(problem, algoB, out VariableAssignment assignmentDrandB);
+            Console.WriteLine($"Erfüllte Klauseln: {satisfiedClausesDrandB}");
+
+
             Console.Read();
         }
     }
