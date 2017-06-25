@@ -3,6 +3,14 @@
     {
       "Id": "d4636d09-3416-4d6e-94a6-008da0c2f3d9",
       "Command": "..\\..\\..\\..\\data\\aim-50-1_6-yes1-4.cnf.txt"
+    },
+    {
+      "Id": "e379890b-5b42-48c4-b54b-a97fff1d4f84",
+      "Command": "..\\..\\..\\..\\data\\ssa6288-047.cnf"
+    },
+    {
+      "Id": "f09145fd-385f-45be-9eec-de1530f2c4dd",
+      "Command": "..\\..\\..\\..\\data\\ssa7552-038.cnf"
     }
   ]
 }
